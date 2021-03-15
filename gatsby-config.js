@@ -2,5 +2,5 @@ module.exports = {
   siteMetadata: {
     title: "Brenden Moore",
   },
-  plugins: [],
+  plugins: ['gatsby-plugin-postcss'],
 };
