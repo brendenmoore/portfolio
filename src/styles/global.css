@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .h-80vh {
+      height: 80vh;
+    }
+  }
+}
+
+html {
+  @apply bg-blue-25;
+}

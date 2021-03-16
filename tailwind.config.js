@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: false, // or 'media' or 'class'
@@ -12,7 +14,14 @@ module.exports = {
         "2xl": "6rem",
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          25: "#FAFCFC",
+        },
+        "off-white-blue": "#FAFCFC",
+      },
+    },
   },
   variants: {
     extend: {},
