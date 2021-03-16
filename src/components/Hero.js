@@ -12,7 +12,7 @@ const Hero = () => {
         ></img>
       </div>
       <div className="space-y-3 col-span-2 col-start-2 row-start-1 sm:col-span-1 sm:col-start-1 flex flex-col justify-center">
-        <h1 className="text-7xl sm:text-6xl md:text-7xl font-serif">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl font-serif">
           Brenden Moore
         </h1>
         <h2 className="text-3xl text-blue-500">Web Developer</h2>
