@@ -3,7 +3,7 @@ import profile from "../images/profile.jpg";
 
 const Hero = () => {
   return (
-    <main className="container py-12 md:py-16 grid grid-cols-3 gap-6 sm:grid-cols-2 h-80vh">
+    <main className="container py-12 md:py-16 grid grid-cols-3 gap-6 sm:grid-cols-2 h-96 sm:h-80vh">
       <div className="flex justify-center items-center w-full col-start-1 sm:col-start-2">
         <img
           src={profile}
