@@ -1,13 +1,12 @@
 import React from "react";
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
 
 const index = () => {
   return (
     <div>
-      <p>Welcome to brendenmoore.dev</p>
-      <p>
-        As you can see, there is not much to see at the moment. You are an early
-        arriver.
-      </p>
+      <Navbar></Navbar>
+      <Hero></Hero>
     </div>
   );
 };
