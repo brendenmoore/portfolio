@@ -27,7 +27,7 @@ const Intro = () => {
       <div className="relative z-20 flex items-center">
         <div className="container mx-auto text-white space-y-10 mt-12 mb-20 lg:-mt-7">
           <p className="text-lg">Oh hello, nice to meet you!</p>
-          <h1 className="text-7xl sm:text-8xl font-mono">{data.home.heroText}</h1>
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-mono">{data.home.heroText}</h1>
         </div>
       </div>
     </section>
