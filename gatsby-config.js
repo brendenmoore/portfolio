@@ -14,5 +14,12 @@ module.exports = {
         dataset: "production",
       },
     },
+    {
+      resolve: "gatsby-plugin-sanity-image",
+      options: {
+        projectId: "teb3l0hf",
+        dataset: "production",
+      },
+    },
   ],
-};
+}
