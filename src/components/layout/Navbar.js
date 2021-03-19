@@ -3,12 +3,12 @@ import { Link } from "gatsby";
 
 const Navbar = () => {
   return (
-    <header className="container mx-auto py-6 md:pt-12">
-      <div className="flex justify-between items-center">
+    <header className="mx-auto py-3 sticky top-0 z-10 border-b bg-blue-25">
+      <div className="container flex justify-between items-center">
         <Link to="/">
           <svg
-            width="40"
-            height="40"
+            width="30"
+            height="30"
             viewBox="0 0 40 50"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -22,16 +22,16 @@ const Navbar = () => {
           </svg>
         </Link>
 
-        <nav className="space-x-4 text-sm md:text-xl">
+        <nav className="space-x-4 text-sm md:text-lg">
           <Link to="/about">About</Link>
-          <Link to="/about">Projects</Link>
-          <Link to="/about">Resume</Link>
-          <Link
-            to="/contact"
-            className="border-2 border-blue-500 px-2 py-1 rounded shadow"
+          <Link to="/projects">Projects</Link>
+          <Link to="/resume">Resume</Link>
+          <a
+            href="mailto:brenden@bmoore.dev"
+            className="border border-blue-500 px-2 py-1 rounded hover:shadow"
           >
             Contact Me
-          </Link>
+          </a>
         </nav>
       </div>
     </header>
