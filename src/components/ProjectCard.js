@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
           className="space-y-2 max-w-3xl"
           content={project.content}
           serializers={{
-            link: (props) => <a className="text-blue-500" {...props}></a>,
+            link: (props) => <a target="_blank" className="text-blue-500" {...props}></a>,
           }}
         />
       </div>
