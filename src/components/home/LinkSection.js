@@ -26,8 +26,8 @@ const LinkSection = () => {
   return (
     <SectionLayout bgColor="bg-blue-100">
       <SectionHeader color="light">Links</SectionHeader>
-      <div className="flex justify-center">
-        <div className="grid sm:grid-cols-3 gap-4 text-2xl md:text-4xl font-thin w-4/6 sm:w-full">
+      <div className="">
+        <div className="grid sm:grid-cols-3 gap-6 text-2xl md:text-4xl font-thin">
           {links.map((link) => (
             <a
               key={link.id}

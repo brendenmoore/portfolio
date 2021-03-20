@@ -28,7 +28,7 @@ const AboutMe = () => {
   return (
     <SectionLayout>
       <SectionHeader color="blue">{aboutHeader}</SectionHeader>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
         <div className="max-w-lg justify-self-center sm:justify-self-end sm:col-start-2">
           {/* <StaticImage
             src="../images/profile.jpg"
@@ -40,7 +40,7 @@ const AboutMe = () => {
           <SanityImage
             {...aboutImage}
             alt="Profile"
-            className="w-28 h-28 rounded-full sm:w-full sm:h-1/2 md:h-full sm:rounded-md shadow object-cover mb-6"
+            className="w-28 h-28 rounded-full sm:w-full sm:h-1/2 md:h-full sm:rounded-md shadow object-cover"
           ></SanityImage>
         </div>
         <div className="space-y-3 row-start-2 col-start-1 sm:row-start-1">

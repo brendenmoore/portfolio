@@ -7,7 +7,7 @@ const SectionHeader = ({ children, color }) => {
         {children}
       </h1>
       <hr className={`${color !== "blue" ? "border-black" : "border-blue-800"} border max-w-xs`}></hr>
-      <div className="h-24"></div>
+      <div className="h-12 md:h-24"></div>
     </>
   )
 }
