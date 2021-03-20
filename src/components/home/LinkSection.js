@@ -2,22 +2,21 @@ import React from "react"
 import SectionLayout from "../layout/SectionLayout"
 import SectionHeader from "../layout/SectionHeader"
 import { graphql, useStaticQuery } from "gatsby"
+import SanityImage from "gatsby-plugin-sanity-image"
 
 const LinkSection = () => {
   const {
-    allSanityLink: { links },
+    sanityHomePage: { links },
   } = useStaticQuery(graphql`
     {
-      allSanityLink {
-        links: nodes {
-          icon {
-            asset {
-              url
-            }
-          }
+      sanityHomePage {
+        links {
           id
           title
           url
+          icon {
+            ...ImageWithPreview
+          }
         }
       }
     }
@@ -34,11 +33,11 @@ const LinkSection = () => {
               href={link.url}
               className="flex items-center space-x-4"
             >
-              <img
-                src={link.icon.asset.url}
+              <SanityImage
+                {...link.icon}
                 alt={link.title}
                 className="h-10 w-10"
-              ></img>
+              ></SanityImage>
               <span>{link.title}</span>
             </a>
           ))}
