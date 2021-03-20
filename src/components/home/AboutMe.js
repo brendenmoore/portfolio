@@ -24,7 +24,7 @@ const AboutMe = () => {
       aboutImage
     },
   } = data
-  console.log(aboutContent)
+
   return (
     <SectionLayout>
       <SectionHeader color="blue">{aboutHeader}</SectionHeader>
