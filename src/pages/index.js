@@ -6,7 +6,7 @@ import Navbar from "../components/layout/Navbar"
 import ProjectSection from '../components/home/ProjectSection'
 import {Helmet} from 'react-helmet'
 
-const index = () => {
+const Index = () => {
   return (
     <div className="application">
       <Helmet>
@@ -22,4 +22,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

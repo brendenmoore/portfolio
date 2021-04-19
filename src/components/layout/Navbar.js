@@ -23,15 +23,15 @@ const Navbar = () => {
         </Link>
 
         <nav className="space-x-4 text-sm md:text-lg">
-          {/* <Link to="/about">About</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/resume">Resume</Link> */}
-          <a
+          {/* <Link to="/about">About</Link> */}
+          <Link to="/contact">Contact</Link>
+          <Link to="/resume">Resume</Link>
+          {/* <a
             href="mailto:brenden@bmoore.dev"
             className="border border-blue-500 px-2 py-1 rounded hover:shadow"
           >
             Contact Me
-          </a>
+          </a> */}
         </nav>
       </div>
     </header>
