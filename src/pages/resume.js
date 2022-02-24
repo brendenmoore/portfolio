@@ -1,8 +1,6 @@
 import React from "react"
 import Layout from "../components/layout/Layout"
 import { Helmet } from "react-helmet"
-import PdfViewer from "../components/PdfViewer";
-import resume from "../../static/resume.pdf"
 
 const Resume = () => {
   return (
@@ -14,7 +12,6 @@ const Resume = () => {
           name="viewport"
         />
       </Helmet>
-      <PdfViewer sourceDocument={resume}></PdfViewer>
     </Layout>
   )
 }
